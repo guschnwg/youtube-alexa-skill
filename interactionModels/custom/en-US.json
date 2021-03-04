@@ -1,0 +1,103 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "youtube player",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "SampleIntent",
+          "slots": [],
+          "samples": [
+            "play demo",
+            "to play demo"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PauseIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ResumeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "PlaylistGenreIntent",
+          "slots": [
+            {
+              "name": "playlist",
+              "type": "AMAZON.SearchQuery"
+            },
+            {
+              "name": "genre",
+              "type": "AMAZON.Genre"
+            }
+          ],
+          "samples": [
+            "to play genre {genre}",
+            "play genre {genre}",
+            "to play from playlist {playlist}",
+            "play from playlist {playlist}"
+          ]
+        },
+        {
+          "name": "AMAZON.NextIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ShuffleOnIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ShuffleOffIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.RepeatIntent",
+          "samples": []
+        },
+        {
+          "name": "LikedIntent",
+          "slots": [],
+          "samples": [
+            "play from liked",
+            "to play from liked"
+          ]
+        },
+        {
+          "name": "SpecificSongIntent",
+          "slots": [
+            {
+              "name": "song",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "samples": [
+            "to play {song}",
+            "play {song}"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "12"
+}

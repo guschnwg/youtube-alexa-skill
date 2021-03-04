@@ -1,0 +1,57 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda"
+        },
+        "interfaces": [
+          {
+            "type": "AUDIO_PLAYER"
+          }
+        ]
+      }
+    },
+    "manifestVersion": "1.0",
+    "publishingInformation": {
+      "category": "STREAMING_SERVICE",
+      "distributionCountries": [],
+      "isAvailableWorldwide": true,
+      "locales": {
+        "pt-BR": {
+          "description": "Tocador do YouTube",
+          "examplePhrases": [
+            "Alexa peça para youtube player tocar demonstração",
+            "Alexa peça para youtube player tocar das curtidas",
+            "Alexa peça para youtube player tocar Purple Noise Boris Brejcha",
+            "Alexa peça para youtube player tocar gênero Techno",
+            "Alexa peça para youtube player tocar gênero Melodic Techno",
+            "Alexa peça para youtube player tocar gênero Pagode",
+            "Alexa peça para youtube player tocar playlist Minha playlist",
+            "de novo <- esta adiciona a música a sua lista de curtidas"
+          ],
+          "keywords": [],
+          "name": "Youtube Player",
+          "summary": "Tocador do Youtube"
+        },
+        "en-US": {
+          "description": "Youtube Player",
+          "examplePhrases": [
+            "Alexa ask youtube player to play demo",
+            "Alexa ask youtube player to play from liked",
+            "Alexa ask youtube player to play Purple Noise Boris Brejcha",
+            "Alexa ask youtube player to play genre Techno",
+            "Alexa ask youtube player to play genre Melodic Techno",
+            "Alexa ask youtube player to play genre Pagode",
+            "Alexa ask youtube player to play from playlist Minha playlist",
+            "repeat <- this one adds the song to your liked list"
+          ],
+          "keywords": [],
+          "name": "Youtube Player",
+          "summary": "Youtube Player"
+        }
+      },
+      "testingInstructions": "Sample Testing Instructions."
+    }
+  }
+}
