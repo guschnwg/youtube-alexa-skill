@@ -1,0 +1,101 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "youtube player",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "SampleIntent",
+          "slots": [],
+          "samples": [
+            "toca uma palhinha",
+            "tocar demonstração",
+            "tocar demo"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PauseIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ResumeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "PlaylistGenreIntent",
+          "slots": [
+            {
+              "name": "playlist",
+              "type": "AMAZON.SearchQuery"
+            },
+            {
+              "name": "genre",
+              "type": "AMAZON.Genre"
+            }
+          ],
+          "samples": [
+            "tocar gênero {genre}",
+            "tocar playlist {playlist}"
+          ]
+        },
+        {
+          "name": "AMAZON.NextIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ShuffleOnIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ShuffleOffIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.RepeatIntent",
+          "samples": []
+        },
+        {
+          "name": "LikedIntent",
+          "slots": [],
+          "samples": [
+            "tocar da lista de curtidas",
+            "tocar das curtidas"
+          ]
+        },
+        {
+          "name": "SpecificSongIntent",
+          "slots": [
+            {
+              "name": "song",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "samples": [
+            "tocar {song}"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "12"
+}
